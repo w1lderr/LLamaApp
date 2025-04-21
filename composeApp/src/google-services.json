@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "325688937080",
+    "project_id": "llamaapp-4ab78",
+    "storage_bucket": "llamaapp-4ab78.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325688937080:android:6fc6c4321d6332b5d2fb8d",
+        "android_client_info": {
+          "package_name": "org.example.llamapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeaOuRGa-jvT7zZoJZ4ObUrO2eeVN9gNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
