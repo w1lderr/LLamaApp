@@ -1,7 +1,7 @@
 # **Llama App**
 
 <picture>
-   <img alt="Llama" src="https://github.com/w1lderr/LLamaApp/blob/master/Frame%1.png">
+   <img alt="Llama" src="https://github.com/w1lderr/LLamaApp/blob/master/Frame%201.png">
 </picture>
 
 # **Intoduction**
