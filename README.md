@@ -32,3 +32,8 @@ Multiplatform frontend, offering a seamless experience across platforms.
 - FastAPI
 - Groq Cloud
 
+## Contributing
+I welcome contributions! Please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
