@@ -17,3 +17,17 @@ Multiplatform frontend, offering a seamless experience across platforms.
 - 🔥 Real-time backend with FastAPI
 - ☁️ Cloud integration via Groq Cloud
 - 🧩 Modular architecture using Decompose and Koin
+
+# **🛠️ Technologies Used**
+- Kotlin
+- Kotlin Multiplatform
+- Compose Multiplatform
+- CMP Toast
+- Decompose
+- Koin
+- Ktor
+- Google Services
+- Firebase
+- Python
+- FastAPI
+- Groq Cloud
