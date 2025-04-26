@@ -31,3 +31,6 @@ Multiplatform frontend, offering a seamless experience across platforms.
 - Python
 - FastAPI
 - Groq Cloud
+
+# **App view**
+
