@@ -34,3 +34,6 @@ Multiplatform frontend, offering a seamless experience across platforms.
 
 # **App view**
 
+<picture>
+   <img alt="App view" src="https://github.com/w1lderr/LLamaApp/blob/master/Screenshot_20250426_181853.png">
+</picture>
