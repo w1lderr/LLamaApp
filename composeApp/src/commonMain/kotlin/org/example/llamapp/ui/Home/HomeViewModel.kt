@@ -63,7 +63,7 @@ class HomeViewModel(private val homeRepository: HomeRepository) : ViewModel() {
         CoroutineScope(Dispatchers.IO).launch {
             try {
                 val response = homeRepository.TalkToLlama(currentMessage).trim().removeSurrounding("\"")
-                addMessageToTheList(response)
+                addMessageToTheList(cleanResponse(response))
                 homeRepository.addMessages(
                     Messages(
                         user_message = currentMessage,
@@ -76,5 +76,13 @@ class HomeViewModel(private val homeRepository: HomeRepository) : ViewModel() {
                 }
             }
         }
+    }
+
+    private fun cleanResponse(response: String): String {
+        return response
+            .replace("\\n", "\n") // Convert \n to actual newlines
+            .replace("\\*\\*(.+?)\\*\\*".toRegex(), "$1") // Remove bold markdown
+            .replace("\\*\\s".toRegex(), "• ") // Convert * list items to bullets
+            .trim()
     }
 }
